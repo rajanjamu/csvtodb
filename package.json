@@ -1,0 +1,20 @@
+{
+  "name": "csvtodb",
+  "version": "1.0.0",
+  "description": "Upload CSV and save data to DB",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Rajan Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
